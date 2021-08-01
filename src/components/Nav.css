@@ -4,3 +4,11 @@
 .serchBar {
   margin-bottom: -1rem!important;
 }
+.about {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  /* font-weight: 630; */
+  color:#F2F2F1;
+  /* font-size: 25px; */
+  text-shadow:#0C070B 2px 3px 3px;
+}

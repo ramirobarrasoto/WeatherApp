@@ -1,25 +1,23 @@
 .card {
   margin: 20px;
   width: 18rem;
-  /* background-color: #D9E2F1; */
-  background: rgb(125,140,140);
-background: linear-gradient(320deg, rgba(125,140,140,1) 9%, rgba(247,107,93,1) 75%);
-  border: 3px solid #0C070B ;
-  box-shadow: #0C070B 2px 3px 10px;
-  
+  /* background: rgb(125,140,140);
+  background: linear-gradient(320deg, rgba(125,140,140,1) 9%, rgba(247,107,93,1) 75%); */
+  background-color: transparent;
+  border: 3px solid #0c070b;
+  box-shadow: #0c070b 2px 3px 10px;
 }
 
 .card-title {
   margin-bottom: 15px;
   font-weight: 630;
-  color:#F2F2F1;
+  color: #f2f2f1;
   font-size: 25px;
-  text-shadow:#0C070B 2px 3px 3px;
-  
+  text-shadow: #0c070b 2px 3px 3px;
 }
-.card-title:hover{
+.card-title:hover {
   text-decoration: none;
-  color:#F2F2F1;
+  color: #f2f2f1;
 }
 
 #closeIcon {
@@ -27,17 +25,15 @@ background: linear-gradient(320deg, rgba(125,140,140,1) 9%, rgba(247,107,93,1) 7
   justify-content: flex-end;
   margin-right: 8px;
   margin-top: 8px;
-  
 }
 
 .card-body {
   margin-top: 0px !important;
   padding-top: 0px !important;
 }
-.row{
+.row {
   margin-top: 15px;
 }
-.iconoClima{
-  filter:drop-shadow(12px 10px 7px #0C070B)
+.iconoClima {
+  filter: drop-shadow(12px 10px 7px #0c070b);
 }
-

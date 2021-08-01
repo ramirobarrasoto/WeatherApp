@@ -63,13 +63,7 @@ function App() {
         exact path='/'
         render={() => <Cards cities={cities}  onClose={onClose}/>}
       />
-      {/* <Route
-        exact
-        path='/ciudad/:ciudadId'
-        render={({match}) => <Ciudad
-        city={cities.filter(c => c.id === parseInt(match.params.ciudadId))}
-      />}    
-      /> */}
+     
       <Route
         exact path='/ciudad/:ciudadId'
         render={({match}) => <Ciudad city={onFilter(match.params.ciudadId)}/>}
