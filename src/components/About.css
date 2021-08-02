@@ -5,3 +5,11 @@
   text-decoration: none;
 }
 
+.card{
+  margin: 20px;
+  width: 18rem;
+  background: rgb(125,140,140);
+  background: linear-gradient(320deg, rgba(125,140,140,1) 9%, rgba(247,107,93,1) 75%);
+  border: 3px solid #0c070b;
+  box-shadow: #0c070b 2px 3px 10px;
+}
