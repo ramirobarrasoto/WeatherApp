@@ -4,7 +4,7 @@ import "./About.css"
 export default function About() {
     return(       
         <div className="card_container">
-        <div className="card"> 
+        <div className="cardAbout"> 
       
        <div className="card-body"> 
            <p className="card-title">This app was built by Ramiro Barra Soto.</p>
