@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
   }
 
 .titulo {
@@ -15,4 +16,9 @@
 
 .iconito {
   filter:drop-shadow(12px 10px 7px #0C070B)
+}
+.container{
+  
+  color: #f2f2f1;
+  text-shadow: #0c070b 2px 3px 3px;
 }

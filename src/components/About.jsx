@@ -36,7 +36,7 @@ export default function About() {
         <br />
         <br />
 
-        <h6>Special thanks to <a href="https://www.linkedin.com/in/lucila-rossi/" className="link">Lucila Rossi</a> for the background picture</h6>
+        <h8>Special thanks to <a href="https://www.linkedin.com/in/lucila-rossi/" className="link">Lucila Rossi</a> for the background picture</h8>
        </div>
         </div> 
         </div>
