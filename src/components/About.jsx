@@ -1,28 +1,45 @@
-import React from "react";
+import React from 'react';
+import "./About.css"
 
 export default function About() {
+    return(       
+        <div className="card_container">
+        <div className="card"> 
+      
+       <div className="card-body"> 
+           <p className="card-title">This app was built by Ramiro Barra Soto.</p>
+        <p>See the repo <a href="https://github.com/ramirobarrasoto/WeatherApp">here</a> </p>
+        <p>Follow me on social media!</p>
+        <br />
+        <a href="https://github.com/ramirobarrasoto" className="link">
+        <span>Github profile     </span>
+        <img
+              className='iconoClima'
+              src="https://i.ibb.co/8MD0cY8/Ghub.png"
+              width='80'
+              height='80'
+              alt=''
+        />
+        </a>
+        <br />
+        <br />
+        <a href="https://www.linkedin.com/in/ramiro-barra-soto/" className="link">
+        <span>LinkedIn profile     </span>
+        <img
+              className='iconoClima'
+              src="https://i.ibb.co/G2x5QRC/Lin.png"
+              width='80'
+              height='80'
+              alt=''
+        />
+        </a>
+        <br />
+        <br />
 
-const github = "https://github.com/ramirobarrasoto"
-const linkedIn="https://www.linkedin.com/in/ramiro-barra-soto"
-  return (
-    <div className="about">
-    
-      <h2>
-        {" "}
-        Esta página fue parte de una homework creada por Ramiro Barra Soto{" "}
-      </h2>
-      <h3>
-        {" "}
-        Puedes ver más información sobre mis proyectos en github 
-        
-        <a className="link"href={github}> ramirobarrasoto
-        </a>
-      </h3>
-      <h3>
-        {" "}
-        y tambien contactarme a mi LinkedIn <a className="link" href={linkedIn}>ramiro-barra-soto
-        </a>
-      </h3>
-    </div>
-  );
-}
+        {/* <p>You can check my resume <a href="https://drive.google.com/file/d/1c7QAi3kJC0gj0Lv40xOvbYmeJ30p8co3/view?usp=sharing">here</a> </p> */}
+       </div>
+        </div> 
+        </div>
+    );
+
+};

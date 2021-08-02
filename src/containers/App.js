@@ -19,7 +19,8 @@ function App() {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric&lang=es`)
       .then(r => r.json())
       .then((recurso) => {
-        if(recurso.main !== undefined){
+        if (!cities.find(e => e.id === recurso.id)) {
+          if(recurso.main !== undefined){
           const ciudad = {
             min: recurso.main.temp_min.toFixed(1),
             max: recurso.main.temp_max.toFixed(1),
@@ -39,6 +40,10 @@ function App() {
         } else {
           alert("Ciudad no encontrada");
         }
+        } else {
+          alert("Esa ciudad ya fue encontrada. Intente con una diferente.")
+        }
+        
       });
   }
 
