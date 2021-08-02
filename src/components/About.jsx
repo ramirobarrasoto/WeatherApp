@@ -36,7 +36,7 @@ export default function About() {
         <br />
         <br />
 
-        {/* <p>You can check my resume <a href="https://drive.google.com/file/d/1c7QAi3kJC0gj0Lv40xOvbYmeJ30p8co3/view?usp=sharing">here</a> </p> */}
+        <h6>Special thanks to <a href="https://www.linkedin.com/in/lucila-rossi/" className="link">Lucila Rossi</a> for the background picture</h6>
        </div>
         </div> 
         </div>

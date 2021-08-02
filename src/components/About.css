@@ -13,3 +13,6 @@
   border: 3px solid #0c070b;
   box-shadow: #0c070b 2px 3px 10px;
 }
+p{
+  font-weight: 600;
+}
