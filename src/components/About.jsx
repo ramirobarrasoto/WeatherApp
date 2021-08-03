@@ -1,4 +1,5 @@
 import React from 'react';
+import 'font-awesome/css/font-awesome.min.css';
 import "./About.css"
 
 export default function About() {
@@ -8,30 +9,19 @@ export default function About() {
       
        <div className="card-body"> 
            <p className="card-title">This app was built by Ramiro Barra Soto.</p>
-        <p>See the repo <a href="https://github.com/ramirobarrasoto/WeatherApp">here</a> </p>
+        <p>See the repo <a href="https://github.com/ramirobarrasoto/WeatherApp" target = '_blank' rel='noopener noreferrer' >here</a> </p>
         <p>Follow me on social media!</p>
         <br />
-        <a href="https://github.com/ramirobarrasoto" className="link">
-        <span>Github profile     </span>
-        <img
-              className='iconoClima'
-              src="https://i.ibb.co/8MD0cY8/Ghub.png"
-              width='80'
-              height='80'
-              alt=''
-        />
+        <a href="https://github.com/ramirobarrasoto" target = '_blank' rel='noopener noreferrer'className="link">
+        <p>Github profile</p>
+              <i class="fab fa-github-square"></i>
         </a>
         <br />
         <br />
-        <a href="https://www.linkedin.com/in/ramiro-barra-soto/" className="link">
-        <span>LinkedIn profile     </span>
-        <img
-              className='iconoClima'
-              src="https://i.ibb.co/G2x5QRC/Lin.png"
-              width='80'
-              height='80'
-              alt=''
-        />
+        <a href="https://www.linkedin.com/in/ramiro-barra-soto/" target = '_blank' rel='noopener noreferrer' className="link">
+        <p>LinkedIn profile     </p>
+       
+        <i class="fab fa-linkedin"></i>
         </a>
         <br />
         <br />
