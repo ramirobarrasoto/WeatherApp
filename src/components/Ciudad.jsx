@@ -4,7 +4,7 @@ import "./Ciudad.css";
 export default function Ciudad({ city }) {
   var sunrise = new Date(city.amanecer * 1000);
   var sunset = new Date(city.anochecer * 1000);
-  console.log(city)
+  
   return (
     <div className="card_container">
       <div className="card">
